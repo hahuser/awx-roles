@@ -1,0 +1,18 @@
+---
+galaxy_info:
+  author: HAHUSER
+  description: This is test AWX package - HAH 
+  company: HAH
+  min_ansible_version: 2.2
+  platforms:
+    - name: RHEL
+      versions:
+        - all
+    - name: Ubuntu
+      versions:
+        - all
+  categories:
+    - cloud
+    - aws
+dependencies: []
+
