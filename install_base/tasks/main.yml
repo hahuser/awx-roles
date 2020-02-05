@@ -2,16 +2,13 @@
   apt: name={{ item }} state=installed
   with_items:
     - locales
-    - build-essential
     - acl
     - ntp
     - htop
     - git
-    - supervisor
+    - nmon
     - python-pip
     - python3-pip
-    - nginx
-  tags:
-    - packages- name: Upgrade pip
-  pip: name=pip state=latest
+#    - nginx
+
 
