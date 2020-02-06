@@ -5,7 +5,7 @@
 
 
 - name: Install base packages
-  apt: name={{ item }}
+  apt: 
     name: ['locales', 'acl', 'ntp', 'htop', 'git', 'nmon', 'python-pip', 'python3-pip']
     state: absent
 
