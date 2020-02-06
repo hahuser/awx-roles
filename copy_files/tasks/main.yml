@@ -1,0 +1,3 @@
+- copy:
+    src: "{{ role_path }}/files/testme.txt"
+    dest: /etc/awxtest.txt
